@@ -24,12 +24,12 @@ $question3=$_POST['question3'];
 
 
 if($question1=='non'){
-    echo'<img src="photo/clind\'oeil.gif"><br>question1  Bravo ';
+    echo'<img src="photo/clind\'oeil.gif"style="width:100px;heigth:100px;" "><br>question1  Bravo ';
 
 }elseif($question1=='oui'){
-echo"<img src='photo/gif.gif'><br>question1 reflechis encore";
+echo"<img src='photo/gif.gif'style='width:100px;heigth:100px;'><br>question1 reflechis encore";
 }else{
-    echo"<img src='photo/faux.gif'><br>question1 tu as tout faux <br> ";
+    echo"<img src='photo/faux.gif' style='width:100px;heigth:100px;'><br>question1 tu as tout faux <br> ";
 
 }
 
@@ -37,12 +37,12 @@ echo'<br>';
 
 
 if($question2=='php coté serveur et javascript coté navigateur'){
-    echo'<img src="photo/clind\'oeil.gif"><br>question2 Bravo';
+    echo'<img src="photo/clind\'oeil.gif" style="width:100px;heigth:100px;"><br>question2 Bravo';
 
 }elseif($question2=='javascrit coté serveur et php coté navigateur'){
-echo"<img src='photo/gif.gif'>.<br>question2 . reflechis encore ";
+echo"<img src='photo/gif.gif' style='width:100px;heigth:100px;'>.<br>question2 . reflechis encore ";
 }else{
-    echo"<img src='photo/faux.gif'><br>question2 tu as tout faux  ";
+    echo"<img src='photo/faux.gif' style='width:100px;heigth:100px;'><br>question2 tu as tout faux  ";
     echo'\n';
 }
 
@@ -50,12 +50,12 @@ echo'<br>';
 
 
 if($question3=='nous sommes 4'){
-    echo'<img src="photo/clind\'oeil.gif"><br> question3  Bravo ';
+    echo'<img src="photo/clind\'oeil.gif" style="width:100px;heigth:100px;"><br> question3  Bravo ';
 
 }elseif($question3=='6'){
-echo"<img src='photo/gif.gif'><br>question3 reflechis encore ";
+echo"<img src='photo/gif.gif' style='width:100px;heigth:100px;'><br>question3 reflechis encore ";
 }else{
-    echo"<img src='photo/faux.gif'><br> question3 tu as tout faux ";
+    echo"<img src='photo/faux.gif' style='width:100px;heigth:100px;'><br> question3 tu as tout faux ";
    
 }
 
